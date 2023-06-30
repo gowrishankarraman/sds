@@ -2,17 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import {BrowserRouter}from 'react-router-dom'
 import Header from './componends/Header';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <BrowserRouter>
+      
       <Header></Header>
     <App />
-    </BrowserRouter>
+   
   </React.StrictMode>
 );
 

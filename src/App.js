@@ -1,11 +1,11 @@
 
-import { Route, Routes } from 'react-router-dom';
+// import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Body from './componends/Body';
 // import Header from './componends/Header';
-import About from './componends/About';
-import Services from './componends/Services';
-import From from './componends/Form';
+// import About from './componends/About';
+// import Services from './componends/Services';
+// import From from './componends/Form';
 import { useEffect } from 'react';
 
 
@@ -33,17 +33,18 @@ function App() {
 
   return (
     <div >
-      
-      {/* <Header></Header> */}
-     <Routes>
-      <Route path='/' element={<Body></Body>}> 
+      <Body></Body>
+ 
+     
+    
+      {/* <Route path='/' element={<Body></Body>}> 
           </Route>
           <Route path='/about' element={<About></About>}></Route>
           <Route path='/service' element={<Services></Services>}></Route>
-          <Route path='/contuctus' element={<From></From>}></Route>
+          <Route path='/contuctus' element={<From></From>}></Route> */}
 
 
-      </Routes>
+    
       
        
         
