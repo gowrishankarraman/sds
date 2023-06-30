@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.head-bg{
+  background-color:#021f61;
+  z-index: 1;
+  overflow: hidden;
+}
+.head-bg Button:hover{
+/* text-decoration: underline; */
+color: rgba(227, 38, 9, 0.936);
+}
+/* .head-bg[id=nlink]:hover{
+  color: aqua !important;
+  background-color: aqua;
+} */
+
+.headmid-bg{
+  background-color:#7a8bff;
+
+}
+.nlink{
+  text-decoration:none ;
+  color: white;
+}
+.nlink:hover{
+transition: all 0.5s ease;
+border-bottom: 4px solid gold;
+
+  
+}
+
+/* .liimg li::before{
+  content: "";
+  display:inline-block;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background:url("https://www.humancloudsoft.com/images/icons/wordpress.png");
+  background-size: cover;
+
+} */
+/* .liimg{
+  list-style-image: url("https://www.humancloudsoft.com/images/icons/wordpress.png");
+ 
+} */
+
+.linespace{
+letter-spacing: 2px;
+}
+.img{
+  max-width: 250px;
+  max-height: 300px;
+}
+.abtcolr{
+  background-color: #b0b0f2a6;
+  color: black;
+  overflow: hidden;
+}
+.img-pos{
+  left:300px;
+  top:-15px;
+  /* margin-left: auto; */
+  position:absolute;
+ 
+ 
+}
+
+@media screen and (max-width:500px){
+
+  .img-pos{
+  left:30px;
+  top:20px;
+  padding:25px;
+  position:absolute;
+}
+.img{
+  max-width: 300px;
+  max-height: 300px;
+
+}
+.box{
+max-width: 70%;
+}
+}
+
+.list ul li{
+  list-style: none;
+}
+.fdcolr{
+  background-color: #404145;
+  color: white;
+  
+}
+.formcolr{
+  background-color: #1d3ab07b;
+  color: rgb(21, 3, 3);
+  
+}
+.formcard{
+  background-color: #02040e5b;
+  color: rgb(246, 239, 239);
+}
+
+.hid{
+  opacity: 0;
+  transition: all 2s ease;
+  transform: translateX(-10%);
+  overflow: hidden;
+  /* transform: translatey(-100%); */
+ 
+}
+.show{
+  opacity: 1;
+  transform: translateX(0);
+  overflow: hidden;
+  /* transform: translatey(0); */
+
+ 
+  /* transition: all 2s ease; */
+  
+}
+.hid img{
+  transform: translateX(30%);
+  opacity: 0;
+  transition:all 2s ease;
+}
+.show img{
+  transform: translateX(0);
+  opacity: 1;
+ 
+}
+

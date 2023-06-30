@@ -1,0 +1,63 @@
+export const  Data=[
+    {
+        id:1,
+        img:"https://www.humancloudsoft.com/images/dotnet.png",
+        name:".Net",
+        color:"#cbefff"
+        
+    },
+    {
+        id:2,
+        img:"https://www.humancloudsoft.com/images/hirel-tech4.png",
+        name:"Java",
+        color:"#d2e6ff"
+    },
+    {
+        id:3,
+        img:"https://www.humancloudsoft.com/images/hirel-tech10.png",
+        name:"React",
+        color:"#d0f5fe"
+    },
+    {
+        id:4,
+        img:"https://www.humancloudsoft.com/images/hirel-tech7.png",
+        name:"Node js",
+        color:"#e7ffc9"
+    },
+    {
+        id:5,
+        img:"https://www.humancloudsoft.com/images/javascript.png",
+        name:"Java script",
+        color:"#e7ffc9"
+    },
+    {
+        id:6,
+        img:"https://www.humancloudsoft.com/images/hirel-tech9.png",
+        name:"Python",
+        color:"#fff2d5"
+    },
+    {
+        id:7,
+        img:"https://www.humancloudsoft.com/images/hirel-tech3.png",
+        name:"Django",
+        color:"#d0f5fe"
+    },
+    {
+        id:8,
+        img:"https://www.humancloudsoft.com/images/hirel-tech1.png",
+        name:"Angular",
+        color:"#ffd2d9"
+    },
+    {
+        id:9,
+        img:"https://www.humancloudsoft.com/images/hirel-tech6.png",
+        name:"Magento",
+        color:"#fff2d5"
+    },
+    {
+        id:10,
+        img:"https://www.humancloudsoft.com/images/wordpress.png",
+        name:"Wordpress",
+        color:"#d0f5fe"
+    }
+]
